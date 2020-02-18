@@ -1,0 +1,22 @@
+<git add 至暫存區>
+工作目錄(Working Directory)內指定單一檔案存入暫存區
+git add helloword.txt
+
+工作目錄(Working Directory)內所有檔案存入暫存區
+git add .
+
+存入暫存區後提交備註
+git commit -m “add helloword.txt”
+
+
+<git push 至 GitHub>
+如果Git目錄內沒有分支，可以直接用git push
+git push
+
+上傳所有分支至Git目錄
+git push --all origin
+
+上傳指定分支至Git目錄
+git push origin master
+
+
